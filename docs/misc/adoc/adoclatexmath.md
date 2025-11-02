@@ -1,6 +1,6 @@
 # Use Latex for proper equation rendering
 
-There is a good package called asciidoctor-mathematical that allows you to embed mathematical expressions in the form of LaTeX code into your documents. Unfortunately, this tool uses a library called mathematical for rendering. For a long time, no one has worked on this thing anymore, and unfortunately, it is not capable of rendering all expressions cleanly (for examle underbrace). Also the equation numbering has some issues. I meantioned 
+There is a good package called asciidoctor-mathematical that allows you to embed mathematical expressions in the form of LaTeX code into your documents. Unfortunately, this tool uses a library called mathematical for rendering. For a long time, no one has worked on this thing anymore, and unfortunately, it is not capable of rendering all expressions cleanly (for examle underbrace). Also the equation numbering has some issues.
 
 I thought to myself: why not use the original, namely LaTeX?
 
@@ -33,7 +33,6 @@ The enhancement supports following parameters:
 Compile your document using following call:
 ~~~
 asciidoctor-pdf --trace\
-     -r asciidoctor-diagram \
      -r asciidoctor-mathematical\
      -a mathematical-format=svg\
      -a mathematical-pdflatex\

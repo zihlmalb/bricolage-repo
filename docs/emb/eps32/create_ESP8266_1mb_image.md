@@ -6,7 +6,7 @@ I wasted some time trying to flash images onto an ESP-01 module to use it as a W
 
 ## Prebuilt Binary images
 
-If you don't want to build it yourself, just take the [binary images](../../../data/esp-01s-1mb.tar.gz ':ignore') and flash them using the esptool.
+If you don't want to build it yourself, just take the [binary images](https://github.com/zihlmalb/bricolage-repo/blob/main/data/esp-01s-1mb.tar.gz) and flash them using the esptool.
 
 ```sh
 # extract the binary folder
